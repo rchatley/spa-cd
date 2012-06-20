@@ -14,12 +14,8 @@ public class QueryProcessorTest {
     }
 
     @Test
-    public void knowsAboutSpa() throws Exception {
-        assertThat(new QueryProcessor().process("SPA2012"), containsString("conference"));
+    public void knowsAboutName() throws Exception {
+        assertThat(new QueryProcessor().process("what is your name"), containsString("Falling Sunset"));
     }
 
-    @Test
-    public void knowsAboutMe() throws Exception {
-        assertThat(new QueryProcessor().process("Robert"), containsString("presenting"));
-    }
 }

@@ -7,6 +7,6 @@ public class QueryProcessor {
         if (query.contains("name")) {
             return "Falling Sunset";
         }
-        return "";
+        return null;
     }
 }
