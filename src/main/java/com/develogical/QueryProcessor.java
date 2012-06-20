@@ -6,6 +6,9 @@ public class QueryProcessor {
         if (query.contains("SPA2012")) {
             return "SPA is a conference";
         }
+        if (query.contains("Robert")) {
+            return "is presenting CD at SPA";
+        }
         return null;
     }
 }
