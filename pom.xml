@@ -40,7 +40,7 @@
                             <programs>
                                 <program>
                                     <mainClass>com.develogical.WebServer</mainClass>
-                                    <name>aepfacts</name>
+                                    <name>TheApp</name>
                                 </program>
                             </programs>
                         </configuration>
