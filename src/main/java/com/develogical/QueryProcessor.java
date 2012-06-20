@@ -3,12 +3,10 @@ package com.develogical;
 public class QueryProcessor {
 
     public String process(String query) {
-        if (query.contains("SPA2012")) {
-            return "SPA is a conference";
+        System.out.println(query);
+        if (query.contains("name")) {
+            return "Falling Sunset";
         }
-        if (query.contains("Robert")) {
-            return "is presenting CD at SPA 2012";
-        }
-        return null;
+        return "";
     }
 }
